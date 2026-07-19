@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
+import WeatherWidget from './components/WeatherWidget';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="app-container">
       <h1>Task Manager</h1>
+<WeatherWidget />
       <TaskForm
         onTaskCreated={handleTaskSaved}
         editingTask={editingTask}

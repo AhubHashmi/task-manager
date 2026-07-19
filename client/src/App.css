@@ -100,3 +100,14 @@ h1 {
   background-color: #ff6b6b;
   color: white;
 }
+
+.weather-widget {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px;
+  background-color: #eef2ff;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
